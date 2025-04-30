@@ -11,7 +11,7 @@
 }
 
 /* Banner Text CSS */
-.intro11-slider .slider-content .title { font-size: 60px;}
+/* .intro11-slider .slider-content .title { font-size: 60px;} */
 
 
 /* SERVICES CARDS CSS  */
@@ -256,7 +256,8 @@
 .icon_bg{ background-color:#407492; }
 .icon_bgtext{ background-color:#697d53; padding: 6%; text-align: center;}
 @media only screen and (max-width: 768px) {
-.iconboxarea {width: 100%; text-align: center;}
+
+.iconboxarea { text-align: center; display: flex; flex-wrap: nowrap;}
 }
 
 /* IMAGE GALLERY - LIFE at BOV CSS  */
